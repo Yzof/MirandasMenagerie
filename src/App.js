@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import Body from './Body.js';
 import Header from './Header.js';
