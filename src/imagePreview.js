@@ -4,11 +4,11 @@ import React from 'react';
   add an image tag, allow for the src to be passed in as a proc
   add an onClick trigger, that brings up the full image overlay
 */
-function imagePreview () {
+function imagePreview ({ imageSrc }) {
   return (
-    <div>
-
-    </div>
+    <>
+      <image src={imageSrc}></image>
+    </>
   )
 }
 
